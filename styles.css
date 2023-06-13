@@ -1,0 +1,12 @@
+body{
+    box-sizing: border-box;
+}
+header{
+    background-color:#1F2937;
+    width:100%;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+}

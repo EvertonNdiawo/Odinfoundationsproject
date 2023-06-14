@@ -6,6 +6,24 @@ header{
     width:100%;
 }
 
+.head{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.head img{
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+}
+
+.head ul{
+    text-decoration: none;
+    list-style-type:none;
+}
+
 .logo{
     width: 20px;
     height: 20px;

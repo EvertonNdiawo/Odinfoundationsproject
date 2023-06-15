@@ -10,9 +10,9 @@ header{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 110px;
-    padding: 5px;
+    padding: 0 85px 0 120px;
 }
 
 .head img{
@@ -44,4 +44,39 @@ header{
 
 .head a:hover{
     color:dodgerblue;
+}
+
+.sub-head{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.wall, .hero{
+    height: 220px;
+    width: 35%;
+}
+.hero{
+    width: 50%;
+}
+.wall img{
+    height: 100%;
+    width: 100%;
+}
+
+.hero{
+    box-sizing: border-box;
+    padding: 5px 40px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+.hero span{
+    display: block;
 }

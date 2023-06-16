@@ -85,9 +85,10 @@ header{
 
 .sign{
     background-color: #3882F6;
-    color:#E5E7EB;
+    color:#fff;
     font-size: 18px;
     border:none;
+    padding: 3px 6px;
     border-radius: 4px;
 }
 .sign:hover{

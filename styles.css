@@ -13,6 +13,7 @@ header{
     justify-content: space-between;
     height: 110px;
     padding: 0 85px 0 120px;
+    position:sticky;
 }
 
 .head img{
@@ -48,14 +49,14 @@ header{
 
 .sub-head{
     width: 100%;
-    height: 230px;
+    height: 250px;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content:center;
 }
 
 .wall, .hero{
-    height: 220px;
+    height: 240px;
     width: 35%;
 }
 .hero{
@@ -79,4 +80,16 @@ header{
 }
 .hero span{
     display: block;
+    font-size: 36px;
+}
+
+.sign{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-size: 18px;
+    border:none;
+    border-radius: 4px;
+}
+.sign:hover{
+    transform:scale(1.1);
 }

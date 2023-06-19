@@ -88,7 +88,7 @@ header{
     color:#fff;
     font-size: 18px;
     border:none;
-    padding: 3px 6px;
+    padding: 2px 4px;
     border-radius: 4px;
 }
 .sign:hover{
@@ -99,7 +99,7 @@ header{
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
-    height: 300px;
+    height: 350px;
 
 }
 .tmhead{
@@ -137,4 +137,32 @@ header{
     padding: 5px;
     text-align: center;
     background-color: white;
+}
+
+.quote{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 270px;
+    background-color:#E5E7EB;
+}
+.cont{
+    width: 50%;
+    height: 180px;
+}
+.cont p{
+    text-align: justify;
+}
+.cited{
+    display: block;
+    text-align:right;
+}
+
+.action{
+    display:flex;
+    height:200px;
+}
+.blue{
+    height:100px;
+    background-color:#3882f6;
 }

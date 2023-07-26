@@ -164,8 +164,39 @@ header{
     height:250px;
 }
 .blue{
+    box-sizing:border-box;
     display:flex;
+    align-items:center;
+    justify-content:space-between;
     height:150px;
     width: 80%;
+    padding:25px 10%;
     background-color:#3882f6;
+    color:#fff;
+}
+
+.blue button{
+    background-color:#3882F6;
+    color: #fff;
+    font-weight:600;
+    height:30px;
+    width: 85px;
+    border: 2px solid #fff;
+    border-radius: 8%;
+}
+
+.calltxt{
+    box-sizing:border-box;
+    width:60%;
+    height:100px;
+    padding:5px;
+}
+.calltxt h3{
+    font-size:24px;
+    font-weight:900;
+    color:#fff;
+}
+.calltxt p{
+    margin-top:-20px;
+    color: #E5E7EB;
 }

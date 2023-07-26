@@ -182,7 +182,7 @@ header{
     height:30px;
     width: 85px;
     border: 2px solid #fff;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 
 .calltxt{
@@ -199,4 +199,14 @@ header{
 .calltxt p{
     margin-top:-20px;
     color: #E5E7EB;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#1F2937;
+    color:#fff;
+    width: 100%;
+    height: 150px;
 }

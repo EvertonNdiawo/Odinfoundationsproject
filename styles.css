@@ -159,9 +159,13 @@ header{
 
 .action{
     display:flex;
-    height:200px;
+    align-items:center;
+    justify-content:center;
+    height:250px;
 }
 .blue{
-    height:100px;
+    display:flex;
+    height:150px;
+    width: 80%;
     background-color:#3882f6;
 }
